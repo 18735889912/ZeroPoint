@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 82.157.237.228:18848
+        username: nacos
+        password: nacos
+        enabled: true
+  application:
+    name: api-passenger
